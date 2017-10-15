@@ -1,0 +1,4 @@
+Contacts Page
+<div *ngFor="let c of contacts" >
+    <a routerLink="/contact/{{c._id}}" >{{c.name}} - {{c.phno}}</a>
+</div>

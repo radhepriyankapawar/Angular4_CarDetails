@@ -1,0 +1,9 @@
+body{
+    /* background-image: url("./cspdbProject/src/Toyota.jpg") */
+    background-color: red;
+}
+
+
+input.ng-invalid.ng-touched{
+    border:1px solid red;
+}
